@@ -151,8 +151,8 @@ tabNav.forEach((tab,index) => {
             })
             playList.innerHTML = htmls.join('')
         },
-        defineProperties: function() {
-            Object.defineProperty(this, 'currentSong', {
+        defineProperties :function() {
+            Object.defineProperty(this,'currentSong',{
                 get: function() {
                     return this.songs[this.currentIndex]
                 }
@@ -193,13 +193,14 @@ tabNav.forEach((tab,index) => {
             }
 
             // Vomlum
-            volumBtn.onchange = function(e) {
-                let currentValum = e.target.value
-                audio.volume = currentValum / 100
-                if(currentValum == 0) {
-                    volumArea.classList.add('mute')
+            volumBtn.onchange = function(e){
+                let currentVolum = e.target.value
+                audio.value = currentVolum/100
+                if(currentVolum ==0){
+                    volumArea.classList.add("mute");
+
                 }else {
-                    volumArea.classList.remove('mute')
+                    volumArea.classList.remove("mute")
                 }
             }
             volumUp.onclick = function() {

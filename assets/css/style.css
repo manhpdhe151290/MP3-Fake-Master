@@ -713,7 +713,11 @@ div.tab button.active1 {
 }
 
 .current {
-  color: #888586;
+  font-size: 1.3rem;
+}
+
+.duration {
+  font-size: 1.3rem;
 }
 
 .progress-area {
@@ -1016,5 +1020,59 @@ div.tab button.active1 {
 
 .btn-musicplay i:hover {
   cursor: pointer;
+}
+
+.playlistnew-title__text {
+  font-size: 3.5rem !important;
+  margin-bottom: 1rem;
+}
+
+.box-playlistnew,
+.box-music-upload {
+  margin: 40px 60px 0px 60px;
+  height: 260px;
+}
+
+.playlistnew-icon {
+  font-size: 3rem;
+}
+
+.playlistnew-box {
+  color: #fff;
+  background-image: linear-gradient(45deg, #681FA7, #B72584);
+  width: 206px;
+  height: 206px;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.playlistnew-box .regnew-playlist {
+  font-size: 3rem;
+  margin-top: 1rem;
+}
+
+.box-music-upload-list-icon {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.box-music-upload-list-icon i {
+  font-size: 80px;
+}
+
+.box-music-upload-list-text {
+  font-size: 17px;
 }
 /*# sourceMappingURL=style.css.map */
